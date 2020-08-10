@@ -1,6 +1,6 @@
-Range: 
-    �� STM32(�ⷨ�뵼��) LPC2214(NXP) MC9S12XEP100(Freescale Semiconductor) ;
-    �� оƬ�洢�ռ�/�洢��ӳ��/ROM/RAM/Peripheral interface(UART,SPI,IIC,CAN,GPIO�ܽŸ���)��
-    �� IIC����ʱ��/SPI����ʱ��/UART����(��ڵ����ݴ���ʱ��)/CAN����(�����˲��������ٲ�)��
-    �� uCOS-II Task scheduling(�ź��������䡢��Ϣ����),LPC2214 Timer0�δ�ʱ�ӣ������¼��������ж���������ȼ�Ĺ�ϵ��
-    �� BootLoader(STM32 KEIL jlink���س��� HEX,BIN�ļ���ʽ,MC9S12XEP100 BDM���س��� S19�ļ���ʽ).
+﻿Range: 
+    ① STM32(意法半导体) LPC2214(NXP) MC9S12XEP100(Freescale Semiconductor) ;
+    ② 芯片存储空间/存储器映射/ROM/RAM/Peripheral interface(UART,SPI,IIC,CAN,GPIO管脚复用)；
+    ③ IIC总线时序/SPI总线时序/UART总线(多节点数据传输时序)/CAN总线(验收滤波，总线仲裁)；
+    ④ uCOS-II Task scheduling(信号量、邮箱、消息队列),LPC2214 Timer0滴答时钟，基于事件触发的中断与任务调度间的关系。
+    ⑤ BootLoader(STM32 KEIL jlink下载程序 HEX,BIN文件格式,MC9S12XEP100 BDM下载程序 S19文件格式).
